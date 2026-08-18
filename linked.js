@@ -17,7 +17,7 @@ class LinkedList{
       this.head = newNode;
       return;
     }
-    Let current = this.head;
+    let current = this.head;
     while (current.next !== null){
       current = current.next;
     }
@@ -25,8 +25,8 @@ class LinkedList{
   }
 
   display() { 
-    Let current = this.head;
-    Let output = "";
+    let current = this.head;
+    let output = "";
     while (current !== null){
       output += current.data + " ";
       current = current.next;
